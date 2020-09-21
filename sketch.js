@@ -47,7 +47,7 @@ function draw() {
 
 function imageSnap() {
 
-  background(119,50,236);
+  background(119,156,236);
   //7, 75, 221
   //image randoms
   randAngle1 = ~~random(360);
