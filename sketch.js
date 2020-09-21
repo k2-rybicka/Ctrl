@@ -13,7 +13,7 @@ some things to help:
 
 //variables for image play 
 var img = []; //set up array for images
-let picNum = 8; // number of images
+let picNum = 18; // number of images
 let randAngle1, randAngle2, randImg, randImg2, img1W, img1H, img2W, img2H; // random variables
 
 function preload() {
