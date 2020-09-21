@@ -52,8 +52,8 @@ function imageSnap() {
   //image randoms
   randAngle1 = ~~random(360);
   randAngle2 = ~~random(360);
-  randImg1 = ~~random(1, picNum);
-  randImg2 = ~~random(1, picNum);
+  randImg1 = ~~random(1, 8);
+  randImg2 = ~~random(9, picNum);
 
   //make image 1
   push(); // Start a new drawing state
