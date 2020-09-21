@@ -47,8 +47,8 @@ function draw() {
 
 function imageSnap() {
 
-  background(7, 75, 221);
-
+  background(255);
+  //7, 75, 221
   //image randoms
   randAngle1 = ~~random(360);
   randAngle2 = ~~random(360);
@@ -59,7 +59,7 @@ function imageSnap() {
   push(); // Start a new drawing state
   translate((width / 2) - 300, (height / 2)); // move
   rotate(randAngle1); //rotate
-  tint(119,156,236, ~~random(10, 90)); // Apply transparency
+  tint(7, 75, 221, ~~random(10, 90)); // Apply transparency
   image(img[randImg1], 0, 0, img1W, img1H);
   pop(); // Restore original state
 
@@ -67,7 +67,7 @@ function imageSnap() {
   push(); // Start a new drawing state
   translate(width / 2, (height / 2) - 10);
   rotate(randAngle2);
-  tint(119,156,236, ~~random(10, 90)); // Apply transparency
+  tint(7, 75, 221, ~~random(10, 90)); // Apply transparency
   image(img[randImg2], 0, 0, img2W, img2H);
   pop(); // Restore original state
 
